@@ -108,7 +108,7 @@ t_test_plot
 
 gapminder %>% 
   filter(continent %in% c("Africa", "Europe")) %>% 
-  t.test(lifeExp ~ continent,data=.) %>% plot()
+  t.test(lifeExp ~ continent,data=.) 
 
 gapminder %>% 
   filter(continent %in% c("Africa", "Europe")) %>% 
